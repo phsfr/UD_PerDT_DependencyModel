@@ -31,7 +31,7 @@ it contains nearly 30,000 sentences labeled with lamatization, POS tagges and de
    ```
    python3 --format conllu path/to/input_file/test_data.conllu path/to/output_file/test_data.conllu.npz
    ```
-4. download it from [here](https://drive.google.com/drive/folders/1-391mwvakvfHn2PpLjXmkrHLDGc_0uiY?usp=sharing)
+4. download it from [here](https://drive.google.com/file/d/1AyLjszRgq0lhAk3p55DH_e0-o4wd6IXx/view?usp=sharing)
 5. run trained model 
    ```
    python3 udpipe2.py uni_PerDT_model --predict --predict_input path/to/input --predict_output path/to/output
