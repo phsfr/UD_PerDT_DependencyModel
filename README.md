@@ -69,5 +69,5 @@ the result of model on test set of UD_PerDT corpus:
 * [UD_PerDT Treebank](https://github.com/phsfr/UD_Persian-PerDT)
 * [UD_PerDT Article](https://arxiv.org/pdf/2009.10205.pdf)
 
-###Contact Info
+#### Contact Info:
 pegh.safari@gmail.com
