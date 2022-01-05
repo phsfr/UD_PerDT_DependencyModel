@@ -3,4 +3,5 @@ __pycache__/
 bert_multilingual_uncased_mysystem
 wembedding_service/venv/
 uni_PerDT_model
+not_include
 

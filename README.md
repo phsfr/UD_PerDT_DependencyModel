@@ -31,6 +31,7 @@ it contains nearly 30,000 sentences labeled with lamatization, POS tagges and de
    ```
    python3 --format conllu path/to/input_file/test_data.conllu path/to/output_file/test_data.conllu.npz
    ```
+   Noted that npz output file should be in the same folder as input conllu. 
 4. download it from [here](https://drive.google.com/file/d/1AyLjszRgq0lhAk3p55DH_e0-o4wd6IXx/view?usp=sharing)
 5. run trained model 
    ```
