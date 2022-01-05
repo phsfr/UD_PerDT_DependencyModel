@@ -1,0 +1,10 @@
+John	John	PROPN
+loves	love	VERB
+Mary	Mary	PROPN
+.	.	PUNCT
+
+Mary	Mary	PROPN
+loves	love	VERB
+John	John	PROPN
+.	.	PROPN
+

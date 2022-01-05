@@ -1,0 +1,23 @@
+1	امروز	امروز	NOUN	N_IANM	Number=Sing	4	obl	_	_
+2	هوا	هوا	NOUN	N_IANM	Number=Sing	4	nsubj	_	_
+3	خیلی	خیلی	ADV	ADV_SADV	_	4	advmod	_	_
+4	خوب	خوب	ADJ	ADJ_AJP	_	0	root	_	_
+5	بود	بود#باش	AUX	AUX	Number=Sing|Person=3	4	cop	_	_
+6	و	و	CCONJ	CONJ	_	8	cc	_	_
+7	تصمیم	تصمیم	NOUN	N_IANM	Number=Sing	8	compound:lvc	_	_
+8	گرفتیم	گرفت#گیر	VERB	V_ACT	Number=Plur|Person=1|Tense=Past|Voice=Act	4	conj	_	_
+9	برای	برای	ADP	PREP	_	11	case	_	_
+10	یک	یک	NUM	PRENUM	_	11	nummod	_	_
+11	گردش	گردش	NOUN	N_IANM	Number=Sing	16	obl	_	_
+12	کوتاه	کوتاه	ADJ	ADJ_AJP	_	11	amod	_	_
+13	به	به	ADP	PREP	_	14	case	_	_
+14	اطراف	طرف	NOUN	N_IANM	Number=Plur	16	obl:arg	_	_
+15	تهران	تهران	PROPN	N_IANM	Number=Sing	14	nmod	_	_
+16	برویم	رفت#رو	VERB	V_ACT	Number=Plur|Person=1|Voice=Act	8	ccomp	_	_
+17	.	.	PUNCT	PUNC	_	8	punct	_	_
+
+1	هوا	هوا	NOUN	N_IANM	Number=Sing	3	nsubj	_	_
+2	سرد	سرد	ADJ	ADJ_AJP	_	3	xcomp	_	_
+3	شده	شد#شو	VERB	V_ACT	Number=Sing|Person=3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	است	#است	AUX	AUX	Number=Sing|Person=3|Tense=Pres	3	aux	_	_
+

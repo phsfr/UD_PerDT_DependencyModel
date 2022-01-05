@@ -1,0 +1,6 @@
+{
+  "model": "bert-base-multilingual-uncased-last4",
+  "sentences": [
+    ["Přílíš", "žluťoučký", "kůň"]
+  ]
+}

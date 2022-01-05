@@ -1,0 +1,6 @@
+__pycache__/
+/udpipe_env/
+bert_multilingual_uncased_mysystem
+wembedding_service/venv/
+uni_PerDT_model
+
