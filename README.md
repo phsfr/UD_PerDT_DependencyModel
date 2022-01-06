@@ -41,7 +41,7 @@ it contains nearly 30,000 sentences labeled with lamatization, POS tagges and de
 the input file should be prepared in conllu format. you can fill format just with tokens and leave the other tags as blank (_) so trained model will fill them for you.
 (refer to the sample file in test_data/test/test_data.conllu)
 
-If your file is in raw text format (.txt) you can use the following script to convert it to conllu:
+If your file is in raw text format (.txt), first of all install [hazm](https://pypi.org/project/hazm/) library and then you can use the following script to convert it to conllu:
 ```
 python3 convert_rawTxt_to_conllu.py --input_file path/to/input_txt_file --output_file path/to/save/output_conllu_file
 ```
