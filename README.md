@@ -22,7 +22,7 @@ it contains nearly 30,000 sentences labeled with lamatization, POS tagges and de
       virtualenv venv
       pip install -r requirements.txt
       ```
-3. run script for producing BERT embeddings:
+3. Run script for producing BERT embeddings:
    ```
    bash scripts/compute_embeddings.sh test_data
    ```
@@ -36,8 +36,8 @@ it contains nearly 30,000 sentences labeled with lamatization, POS tagges and de
    ```
    python3 wembedding_service/compute_wembeddings.py --model custom_model --model_path path/to/local_folder path/to/input_file/test_data.conllu path/to/output_file/test_data.conllu.npz
    ```
-4. download it from [here](https://drive.google.com/file/d/1AyLjszRgq0lhAk3p55DH_e0-o4wd6IXx/view?usp=sharing)
-5. run trained model 
+4. Download the trained model from [here](https://drive.google.com/file/d/1AyLjszRgq0lhAk3p55DH_e0-o4wd6IXx/view?usp=sharing)
+5. Run the model in prediction mode
    ```
    python3 udpipe2.py uni_PerDT_model --predict --predict_input path/to/input --predict_output path/to/output
    ```
