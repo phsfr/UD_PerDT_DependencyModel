@@ -24,6 +24,7 @@ class WEmbeddings:
     MODELS_MAP = {
         # Key: model name. Value: transformer model name, layer start, layer end.
         "bert-base-multilingual-uncased-last4": ("bert-base-multilingual-uncased", -4, None),
+        "custom_model": ("bert-base-multilingual-uncased", -4, None),
         "xlm-roberta-base-last4": ("jplu/tf-xlm-roberta-base", -4, None),
     }
 
@@ -90,11 +91,12 @@ class WEmbeddings:
             if model_name in preload_models or "all" in preload_models:
                 self._models[model_name].load()
 
-    def compute_embeddings(self, model, sentences):
+    def compute_embeddings(self, model, sentences, model_path=None):
         """Computes word embeddings.
         Arguments:
             model: one of the keys of self.MODELS_MAP.
             sentences: 2D Python array with sentences with tokens (strings).
+            model_path: path to the config files, vocab and weight file of custom model on your local system. (strings).
         Returns:
             embeddings as a Python list of 1D Numpy arrays
         """
@@ -104,7 +106,10 @@ class WEmbeddings:
 
         embeddings = []
         if sentences:
+            model_name = model
             model = self._models[model]
+            if model_path is not None and model_name == 'custom_model':
+                model._transformers_model_name = model_path
             model.load()
 
             time_tokenization = time.time()
