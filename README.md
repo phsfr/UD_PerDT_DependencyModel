@@ -71,7 +71,7 @@ the result of model on test set of UD_PerDT corpus:
 
 
 ## Reference
- Rasooli, Mohammad Sadegh, Pegah Safari, Amirsaeid Moloodi, and Alireza Nourian. "The Persian Dependency Treebank Made Universal." arXiv preprint arXiv:2009.10205 (2020).
+ Safari, Pegah, Mohammad Sadegh Rasooli, Amirsaeid Moloodi, and Alireza Nourian. "The Persian dependency treebank made universal." In Proceedings of the Thirteenth Language Resources and Evaluation Conference, pp. 7078-7087. 2022.
 
 
 ## Resources
